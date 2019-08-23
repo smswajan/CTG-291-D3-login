@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(to right bottom, rgba(233, 224, 171, 0.6), rgba(180, 61, 40, 0.6)), url(../img/bg.jpg);
+  background-size: cover;
+  background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.container{
+    margin: 3% auto;
+    width: 550px;
+}
+
+.loginSection{
+    background-color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    padding : 40px;
+    box-shadow: 0 5px 25px black;
+}
+
+
+.loginSection--formControl{
+    padding: 8px 18px;
+    width: 80%;
+    margin-bottom: 20px;
+    display: block;
+    font-family: inherit;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    font-weight: lighter;
+    outline: none;
+    color: black;
+    /* border-left: 6px solid black; */
+    box-shadow: 0px 1px 3px black;
+    font-family: 'Roboto', sans-serif;
+    transition: all .3s ease;
+
+}
+
+.loginSection--formControl:focus{
+    box-shadow: 0px 1px 8px;
+}
+
+.loginSection img{
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+    border: 5px solid rgb(28, 131, 226);
+    border-radius: 50%;
+}
+
+.loginSection h3{
+    color: rgb(255, 67, 34);
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Lobster', cursive;
+}
+
+.btn{
+    background-color: rgb(255, 67, 34);
+    padding: 5px 18px;
+    margin: 0 auto;
+    display: block;
+    font-family: inherit;
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all .2s ease;
+    font-family: 'Roboto', sans-serif;
+
+}
+.btn:hover{
+    box-shadow: 0px 4px 15px black;
+    transform: translateY(-3px);
+}
+.btn:active{
+    box-shadow: 0px 2px 8px black;
+    transform: translateY(0);
+}
+.btnContainer{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.btn-action{
+    width: 42%;
+    margin: 10px 0;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
