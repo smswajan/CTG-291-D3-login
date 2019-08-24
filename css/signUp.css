@@ -102,4 +102,5 @@ body{
     display: inline-block;
     text-decoration: none;
     text-align: center;
+    text-transform: uppercase;
 }
